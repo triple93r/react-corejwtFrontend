@@ -30,7 +30,7 @@ const Login: React.FC = () => {
       <h2>Login</h2>
       {error && <p>{error}</p>}
       <div>
-        <label>Email</label>
+        <label>Username : </label>
         <input
           type="text"
           value={username}
@@ -39,7 +39,7 @@ const Login: React.FC = () => {
         />
       </div>
       <div>
-        <label>Password</label>
+        <label>Password : </label>
         <input
           type="password"
           value={passwd}
